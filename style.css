@@ -1,23 +1,123 @@
 * {
     padding: 0;
     margin: 0;
-}
+  }
 
-body {
-    background-color: antiquewhite;
-}
-nav{
+  body {
+  /* background-image: ('https://e7.pngegg.com/pngimages/895/996/png-clipart-color-smoke-background-color-bright-thumbnail.png');
+    */
+    background-color: lightgreen;
+    background-image: url(./c-d-x-PDX_a_82obo-unsplash\ \(1\).jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+  }
+
+  nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
-}
-nav ul{
+  nav ul {
+    
+    text-decoration: underline;
+    background-color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 500;
     color: white;
     display: flex;
+    padding: 10px;
+    gap: 10px;
+    right: 60px;
     list-style: none;
-    background-color: black;
-    height: 60px;
+    height: 27px;
+  }
 
-}
-.brand img{
+  .container {
+    /* background-image: url(./efe-kurnaz-RnCPiXixooY-unsplash.jpg); */
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    text-shadow: 2px 2px black;
+    text-indent: .1cm;
+    /* border: 2px solid white; */
+    min-height: 79.4vh;
+    /* background-color: indigo; */
+    color: white;
+    width: 50%; /* Set the container width to 50% */
+    padding: -27px;
+    margin: 26px auto;
+    display: flex;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RcxVOuI1uVj58Mo_uohL11Xob80kJQi_SA&usqp=CAU'); */
+   
+  }
+
+  .bottom {
+    position: sticky;
+    height: 90px;
+    /* background-color: #1a1a1a; */
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #mukul {
+    width: 55%;
+    height: 46px;
+  }
+
+  .bottom .icons {
+    
+    font-size: 15px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .songitems {
+    /* border: 3px solid indigo; */
+    border-radius: 15px;
+    font-size: 27px;
+    padding: 2px 49px;
+    margin: 6px 21px;
+  }
+
+  .songitems img {
+    height: 50%;
+    width: 56px;
+  }
+
+  .songlistplay {
     width: 30px;
-}
+  }
+
+  /* Add some modern CSS styles */
+  .container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+
+  }
+
+  .songitems {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .songitems img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .bottom .icons i {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .container h1 img{
+    width: 80px;
+    mix-blend-mode: multiply;
+  }
